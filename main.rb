@@ -31,7 +31,7 @@ get '/student/:name' do
       "https://github.com/ollyd"),
     :charlie => Student.new("Charlie",
       "x",
-      "x",
+      "https://pbs.twimg.com/profile_images/440808125721870336/34QLtMdA.jpeg",
       "x",
       "x",
       "x"),
