@@ -25,7 +25,9 @@
   font-family: 'Lato', sans-serif;
   margin-top: 25px;
 }
-
+.student {
+  padding: 0 20px 0 20px;
+}
 #footer{
   background-color: rgb(224,224,227);
   height: 60px;
@@ -33,7 +35,27 @@
   bottom: 0;
   width: 100%;
 }
-
+#student_image img {
+  max-width: 100%;
+  display: inline-block;
+}
+#student_image {
+  display: inline-block;
+  width: 39%;
+  vertical-align: top;
+}
+#student_text {
+  display: inline-block;
+  max-width: 60%;
+  position: static;
+}
+.logo {
+  height: 50px;
+  margin: 0 10px 0 10px;
+}
+#logo_div {
+  text-align: center;
+}
 
 /*----------------------ABOUT US PAGE----------------*/
 
@@ -124,7 +146,9 @@ textarea {
 form {
     padding-left: 10%;
 }
-
+.clearfloat {
+  overflow: auto;
+}
 .monkey {
     margin-top: 30px;
     margin-left: 10%;    
