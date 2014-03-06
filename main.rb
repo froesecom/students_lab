@@ -2,27 +2,9 @@ require 'pry'
 require 'sinatra'
 require 'sinatra/reloader'
 
-class Student
-  attr_accessor :name, :bio, :photo, :facebook, :twitter, :git
+require 'pony'
 
-  def initialize(name, bio, photo, facebook, twitter, git)
-    # name = string
-    # bio = string
-    # photo = url (on the wb)
-    # facebook = url
-    # twitter = url
-    # git = url
-  end
-
-end
-
-@students = {
-  :nix => Student.new("Nix Siow","x","x","x","x","x"),
-  :olly => Student.new("Olly","x","x","x","x","x"),
-  :charlie => Student.new("Charlie","x","x","x","x","x"),
-  :simon => Student.new("Simon","x","x","x","x","x"),
-  :erik => Student.new("Erik","x","x","x","x","x")
-}
+require_relative 'students'
 
 get '/' do
   erb :home
@@ -33,6 +15,7 @@ get '/about' do
 end
 
 get '/student/:name' do
+  @student = @students[params[:name]]
   erb :student
 end
 
@@ -41,5 +24,19 @@ get '/contact' do
 end
 
 post '/contact' do
+  #Parameters available from form
+  #params[:name] params[:email_address] params[:message]
+
+  subject = "Thanks for your email - Students Lab Team"
+  message = "Hi #{ params[:name] },\nThankyou for contacting us, we will endeavour to get back to you as soon as possible!\nRegards, The Students Lab Team"
+
+  puts "-----------"
+  puts "EMAIL SENT!"
+  puts "To: #{ params[:email_address]}"
+  puts "Subject: #{ subject }"
+  puts "Body: #{ message }"
+  puts "-----------"
+
+  Pony.mail(:to => params[:email_address], :from => 'team@studentlabs.com', :subject => subject, :body => message)
   erb :thanks
 end
