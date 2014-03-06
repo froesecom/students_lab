@@ -42,7 +42,7 @@ get '/student/:name' do
       "https://twitter.com/SimonTaylorAU",
       "https://github.com/nizmox"),
     :erik => Student.new("Erik Froese",
-      "Erik Froese is a chicken giblet reader from Western Canada. His father is a grizzly bear and his mother a champion squash player. Erik grew up in a termite mound and enjoyed playing basketball as a child.\n\nAt the age of 14, he took up drinking, which eventually led him to Melbourne, where he met his future wife. They now have two children, and a witchetty grub named Jim. Erik plans on reading chicken entrails to predict changes in the stock market, so he can make it rich. He use his new found wealth to build the world’s largest potato gun, from which he will launch himself and 5000 of his closets friends into space. They will colonise Mars.",
+      "Erik Froese is a chicken giblet reader from Western Canada. His father is a grizzly bear and his mother a champion squash player. Erik grew up in a termite mound and enjoyed playing basketball as a child.\n\nAt the age of 14, he took up drinking, which eventually led him to Melbourne, where he met his future wife. They now have two children, and a witchetty grub named Jim. Erik plans on reading chicken entrails to predict changes in the stock market, so he can make it rich. He will use his new-found wealth to build the world’s largest potato gun, from which he will launch himself and 5000 of his closets friends into space. They will colonise Mars.",
       "http://i.imgur.com/VzzXBuQ.jpg",
       "www.facebook.com/TheRealFroese",
       "www.twitter.com/EAFroese",
