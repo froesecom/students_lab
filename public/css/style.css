@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+#contact h2, p {
+=======
+<<<<<<< HEAD
 
 /*-----------HEADER AND FOOTER-------------*/
 
@@ -36,6 +39,7 @@
 
 
 h2, p {
+>>>>>>> 4964213ea9b7e89e6a63cd88d5e7b10b980c32ac
     padding-left: 10%; 
     margin: 2em 0 2em 0;
 }
