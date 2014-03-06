@@ -7,20 +7,19 @@
   <link rel="stylesheet" href="/css/style.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 </head>
-<body>
-  <div id="header">
-  	<ul>
-  		<li>HOME</li>
-  		<li>ABOUT US</li>
-		  <li>STUDENTS</li>
-		  <li>CONTACT</li>
-	 </ul>
-  </div>
-  <%= yield %>
-
-  <div id="footer">
-  	
-  </div>
-
-</body>
+<div id="container">
+  <body>
+    <div id="header">
+    	<ul>
+    		<a href="/"><li>HOME</li></a>
+    		<a href="/about"><li>ABOUT US</li></a>
+  		  <a href="/contact"><li>CONTACT</li></a>
+  	 </ul>
+    </div>
+    <%= yield %>
+    <div id="footer">
+    	<p>Secret stuff here.</p>
+    </div>
+  </body>
+</div> 
 </html>

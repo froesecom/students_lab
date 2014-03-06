@@ -5,6 +5,9 @@
 
 /*-----------HEADER AND FOOTER-------------*/
 
+#container {
+  max-width: 960px;
+}
 #header{
   background-color: rgb(47,47,47);
   width: 100%;
