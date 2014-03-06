@@ -78,3 +78,8 @@ post '/contact' do
   Pony.mail(:to => params[:email_address], :from => 'team@studentlabs.com', :subject => subject, :body => message)
   erb :thanks
 end
+
+not_found do
+  status 404
+  erb :error
+end
