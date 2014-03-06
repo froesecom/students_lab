@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+/* HEAD
 #contact h2, p {
 =======
-<<<<<<< HEAD
+<<<<<<< HEAD */
 
 /*-----------HEADER AND FOOTER-------------*/
 
@@ -35,14 +35,11 @@
 	width: 100%;
 
 
-=======
-
 
 h2, p {
->>>>>>> 4964213ea9b7e89e6a63cd88d5e7b10b980c32ac
     padding-left: 10%; 
     margin: 2em 0 2em 0;
-}
+} 
 
 #name-submit {
     max-width: 960px;
@@ -75,5 +72,4 @@ form {
 .monkey {
     margin-top: 30px;
     margin-left: 10%;    
->>>>>>> 3c55c99a866b0a3541451226bf06ed1a9f98e95e
 }
