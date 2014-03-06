@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+/* HEAD
 #contact h2, p {
 =======
-<<<<<<< HEAD
+<<<<<<< HEAD */
 
 /*-----------HEADER AND FOOTER-------------*/
 
@@ -10,7 +10,30 @@
 	width: 100%;
 	height: 70px;
 }
-
+.student {
+  padding: 0 20px 0 20px;
+}
+#student_image img {
+  max-width: 100%;
+  display: inline-block;
+}
+#student_image {
+  display: inline-block;
+  width: 39%;
+  vertical-align: top;
+}
+#student_text {
+  display: inline-block;
+  max-width: 60%;
+  position: static;
+}
+.logo {
+  height: 50px;
+  margin: 0 10px 0 10px;
+}
+#logo_div {
+  text-align: center;
+}
 #header ul{
 	margin: 0 70px 0 0;
 	text-align: right;
@@ -35,14 +58,11 @@
 	width: 100%;
 
 
-=======
-
 
 h2, p {
->>>>>>> 4964213ea9b7e89e6a63cd88d5e7b10b980c32ac
     padding-left: 10%; 
     margin: 2em 0 2em 0;
-}
+} 
 
 #name-submit {
     max-width: 960px;
@@ -63,7 +83,9 @@ textarea {
 #email-submit {
     margin: 50px 0 50px 0;
 }
-
+.clearfloat {
+  overflow: auto;
+}
 #optional-message {
     margin: 50px 0 50px 0;
 }
@@ -75,5 +97,4 @@ form {
 .monkey {
     margin-top: 30px;
     margin-left: 10%;    
->>>>>>> 3c55c99a866b0a3541451226bf06ed1a9f98e95e
 }
