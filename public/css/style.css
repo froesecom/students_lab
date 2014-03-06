@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /*-----------HEADER AND FOOTER-------------*/
 
@@ -29,4 +30,42 @@
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+=======
+h2, p {
+    padding-left: 10%; 
+    margin: 2em 0 2em 0;
+}
+
+#name-submit {
+    max-width: 960px;
+    margin: 0 auto;
+    margin: 50px 0 50px 0;
+}
+
+input, textarea {
+    width: 340px;
+    height: 40px;
+    border-radius: 0.4em;
+}
+
+textarea {
+    padding-top: 1em;
+}
+
+#email-submit {
+    margin: 50px 0 50px 0;
+}
+
+#optional-message {
+    margin: 50px 0 50px 0;
+}
+
+form {
+    padding-left: 10%;
+}
+
+.monkey {
+    margin-top: 30px;
+    margin-left: 10%;    
+>>>>>>> 3c55c99a866b0a3541451226bf06ed1a9f98e95e
 }
